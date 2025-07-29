@@ -4,5 +4,3 @@ django-cors-headers==4.3.1
 python-decouple==3.8
 psycopg2-binary==2.9.7
 django-allauth==0.57.0
-celery==5.3.4
-redis==5.0.1

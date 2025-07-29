@@ -77,7 +77,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       {/* Header */}
       <header className="sticky top-0 z-40 bg-background/95 backdrop-blur border-b border-border">
-        <div className="container max-w-6xl mx-auto px-4 py-4">
+        <div className="w-full max-w-6xl lg:!max-w-none mx-auto px-4 lg:px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <div className="h-8 w-8 bg-primary rounded-lg flex items-center justify-center">
@@ -98,7 +98,7 @@ const Index = () => {
       </header>
 
       {/* Main content */}
-      <main className="container max-w-6xl mx-auto px-4 py-6">
+      <main className="w-full max-w-6xl lg:!max-w-none mx-auto px-4 lg:px-4 py-6">
         <div className="space-y-6">
           <WelcomeSection 
             profile={userProfile} 
@@ -175,7 +175,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="border-t border-border mt-12">
-        <div className="container max-w-6xl mx-auto px-4 py-6">
+        <div className="w-full max-w-6xl lg:!max-w-none mx-auto px-4 lg:px-4 py-6">
           <div className="text-center text-sm text-muted-foreground">
             <p>Built with accessibility and neurodivergent needs in mind</p>
             <p className="mt-1">Your data is private and secure</p>

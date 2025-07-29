@@ -71,7 +71,7 @@ export default function Profile() {
     <div className="min-h-screen bg-background">
       {/* Header */}
       <header className="sticky top-0 z-40 bg-background/95 backdrop-blur border-b border-border">
-        <div className="container max-w-4xl mx-auto px-4 py-4">
+        <div className="w-full max-w-4xl lg:!max-w-none mx-auto px-4 lg:px-4 py-4">
           <div className="flex items-center gap-4">
             <Button
               variant="ghost"
@@ -93,7 +93,7 @@ export default function Profile() {
       </header>
 
       {/* Main content */}
-      <main className="container max-w-4xl mx-auto px-4 py-6">
+      <main className="w-full max-w-4xl lg:!max-w-none mx-auto px-4 lg:px-4 py-6">
         <Tabs defaultValue="personal" className="space-y-6">
           <TabsList className="grid w-full grid-cols-4">
             <TabsTrigger value="personal" className="flex items-center gap-2">
